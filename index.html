@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="/CSS/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kakao Clone</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -23,15 +24,15 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__text">Welcome to Kakao Clone</h1>
-      <p class="welcome-header__title">
+      <h1 class="welcome-header__title">Welcome to Kakao Clone</h1>
+      <p class="welcome-header__text">
         카카오 계정이 있다면, 이메일이나 전화번호로 로그인해주세요.
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or Phone" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or Phone Number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
