@@ -8,6 +8,8 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "screens/find.css";
+@import "components/icon-row.css";
+@import "screens/more.css";
 
 body {
   color: #2e363e;
